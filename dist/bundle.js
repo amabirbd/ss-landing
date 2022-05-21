@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /***/ (() => {
 
-eval("// import { initializeApp } from \"firebase/app\";\n// import { collection, getDocs, getFirestore } from \"firebase/firestore\";\n\n// const firebaseConfig = {\n//   apiKey: process.env.FIREBASE_API_KEY,\n//   authDomain: process.env.FIREBASE_AUTH_DOMAIN,\n//   databaseURL: process.env.DATABASE_URL,\n//   projectId: process.env.FIREBASE_PROJECT_ID,\n//   storageBucket: process.env.FIREBASE_STORAGE_BUCKET,\n//   messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,\n//   appId: process.env.FIREBASE_APP_ID,\n//   measurementId: process.env.MEASUREMENT_ID,\n// };\n\n// initializeApp(firebaseConfig);\n\n// const db = getFirestore();\n\n// const colRef = collection(db, \"messages\");\n\n// getDocs(colRef).then((snapshot) => {\n//   let messages = [];\n//   snapshot.docs.forEach((doc) => {\n//     messages.push({ ...doc.data(), id: doc.id });\n//   });\n//   console.log(messages);\n// });\n\nconsole.log('hello')\n\n//# sourceURL=webpack://firebase-demo/./index.js?");
+eval("// import { initializeApp } from \"firebase/app\";\r\n// import { collection, getDocs, getFirestore } from \"firebase/firestore\";\r\n\r\n// const firebaseConfig = {\r\n//   apiKey: process.env.FIREBASE_API_KEY,\r\n//   authDomain: process.env.FIREBASE_AUTH_DOMAIN,\r\n//   databaseURL: process.env.DATABASE_URL,\r\n//   projectId: process.env.FIREBASE_PROJECT_ID,\r\n//   storageBucket: process.env.FIREBASE_STORAGE_BUCKET,\r\n//   messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,\r\n//   appId: process.env.FIREBASE_APP_ID,\r\n//   measurementId: process.env.MEASUREMENT_ID,\r\n// };\r\n\r\n// initializeApp(firebaseConfig);\r\n\r\n// const db = getFirestore();\r\n\r\n// const colRef = collection(db, \"messages\");\r\n\r\n// getDocs(colRef).then((snapshot) => {\r\n//   let messages = [];\r\n//   snapshot.docs.forEach((doc) => {\r\n//     messages.push({ ...doc.data(), id: doc.id });\r\n//   });\r\n//   console.log(messages);\r\n// });\r\n\r\nconsole.log(\"hello\");\r\n\n\n//# sourceURL=webpack://firebase-demo/./src/index.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("// import { initializeApp } from \"firebase/app\";\n// import { collection
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./index.js"]();
+/******/ 	__webpack_modules__["./src/index.js"]();
 /******/ 	
 /******/ })()
 ;
