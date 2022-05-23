@@ -1,0 +1,290 @@
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* header design */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 5px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.contact-button {
+    width: 8rem;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: rgb(26, 27, 26);
+    color: white;
+    border-radius: 2px;
+    transition: all .6s;
+
+}
+
+.contact-button:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* hero design */
+
+.hero {
+    padding: 8rem 1rem ;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-heading {
+    font-size: 5rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+.hero-subheading {
+    padding: 3em 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero-button {
+    width: 8rem;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    margin-right: 10px;
+    background: rgb(26, 27, 26);
+    color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* card design */
+
+.about {
+    padding: 8rem 1rem ;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-heading {
+    font-size: 3.5rem;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 400px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .6rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.card-title {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #225D32;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.card-text {
+    padding-top: .6rem;
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+/* motto */
+
+.motto {
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 1rem ;
+    margin: 1rem;
+    
+}
+
+.motto-left {
+    width: 35em;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.motto-title {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #225D32;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 1rem;
+}
+
+.motto-text {
+    padding: 0 3rem;
+    line-height: 1.5rem;
+}
+
+
+/* technologies */
+
+.technologies {
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 1rem ;
+    margin: 1rem;
+    
+}
+
+.technologies-right {
+    width: 35em;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.technologies-title {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #225D32;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 1rem;
+}
+
+.technologies-text {
+    padding: 0 3rem;
+    line-height: 1.5rem;
+
+}
+
+
+/* contact form */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 8rem 1rem ;
+    margin: 1rem;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #225D32;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.contact-form {
+
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fullname {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+.email {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+.message {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+.submit-button {
+    width: 8rem;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: rgb(26, 27, 26);
+    color: white;
+    border-radius: 2px;
+    transition: all .6s;
+
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+/* footer  */
+
+.footer {
+    padding: 25px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    padding-left: 20px;
+}
+
+.footer-right {
+    padding-right: 20px;
+}
+
+.footer-right a {
+    color: black;
+    text-decoration: underline;
+}
+
