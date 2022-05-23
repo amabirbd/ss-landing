@@ -1,6 +1,6 @@
 
 
-This is a [Software Sheba Landing Page](https://mellifluous-gingersnap-ff6725.netlify.app/) project Built with NextJs.
+This is a [Software Sheba Landing Page](https://mellifluous-gingersnap-ff6725.netlify.app/) project.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ npm install
 
 ```
 
-Then, run the project:
+Then, run the build command:
 
 ```bash
 npm run build
